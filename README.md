@@ -28,3 +28,5 @@ Copie e renomeie o novo arquivo **.env.example** para **.env**, que é equivalen
 Você ainda pode, copiar qualquer valor que você tinha no antigo arquivo **.env.php** e aplicar em ambos arquivos **.env** *(o real valor para seu ambiente local)* e **.env.example** *(valores que servirão de instrução simples para cada membro da equipe)*
 
 Para maiores informações sobre configuração de ambiente, veja a documentação completa.
+
+**ATENÇÃO: você precisa colocar o arquivo .env no seu servidor de produção antes de fazer o deploy do seu projeto Laravel 5.**
