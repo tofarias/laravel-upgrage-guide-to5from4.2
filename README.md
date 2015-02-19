@@ -18,3 +18,13 @@ Alguns pacotes do laravel podem não ser compativeis coma versão 5 ou com a *re
 ## Namespacing
 
 Por padrão, o projeto Laravel 4 não utiliza *namespacing* dentro do código da sua aplicação. Então, por exemplo, todas as *models* do *Eloquent* e *controllers* simplesmente pertencem ao *namespace* global. Para uma rápida migração, você pode simplesmente deixar essas classes no *namespace* global no Laravel 5.
+
+## Configuração
+
+### Migrando Variáveis de Ambiente
+
+Copie e renomeie o novo arquivo **.env.example** para **.env**, que é equivalente a versão 5.0 do antigo **.env.php**. Defina valores de propriedades nele, como o seu **APP_ENV e APP_KEY (sua chave criptografada)**, suas credenciais do banco de dados, o *cache* e driver de sessão.
+
+Você ainda pode, copiar qualquer valor que você tinha no antigo arquivo **.env.php** e aplicar em ambos arquivos **.env** *(o real valor para seu ambiente local)* e **.env.example** *(valores que servirão de instrução simples para cada membro da equipe)*
+
+Para maiores informações sobre configuração de ambiente, veja a documentação completa.
