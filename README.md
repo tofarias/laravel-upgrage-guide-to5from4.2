@@ -14,3 +14,7 @@ Para iniciar, instale uma nova aplicação Larave 5 em novo diretório no seu am
 
 Não esqueça de copiar qualquer dependência adicional do composer para o seu novo projeto da versão 5. Iso inclui pacotes de terceiros como SDKs.
 Alguns pacotes do laravel podem não ser compativeis coma versão 5 ou com a *release* inicial. Verifique com o mantenedor dos pacotes para determinar a versão adequada do pacote para usar no Laravel 5. Uma vez adicionado qualquer dependência do *composer* você precisa executar o comando *composer update*.
+
+## Namespacing
+
+Por padrão, o projeto Laravel 4 não utiliza *namespacing* dentro do código da sua aplicação. Então, por exemplo, todas as *models* do *Eloquent* e *controllers* simplesmente pertencem ao *namespace* global. Para uma rápida migração, você pode simplesmente deixar essas classes no *namespace* global no Laravel 5.
