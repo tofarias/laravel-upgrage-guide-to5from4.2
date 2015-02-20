@@ -40,7 +40,7 @@ Se na sua aplicação foi injetado **Illuminate\Cache\CacheManager** para obter 
 Substitua todas as chamadas de **$paginator->links()** para **$paginator->render()**.
 
 ### Beanstalk Queuing
-Laravel 5 agora presisa do **"pda/pheanstalk": "~3.0"** ao invés de **"pda/pheanstalk": "~2.1"**.
+Laravel 5 agora precisa do **"pda/pheanstalk": "~3.0"** ao invés de **"pda/pheanstalk": "~2.1"**.
 
 ### Remote
 Desabilidato.
