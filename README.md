@@ -30,3 +30,21 @@ Você ainda pode, copiar qualquer valor que você tinha no antigo arquivo **.env
 Para maiores informações sobre configuração de ambiente, veja a documentação completa.
 
 **ATENÇÃO: você precisa colocar o arquivo .env no seu servidor de produção antes de fazer o deploy do seu projeto Laravel 5.**
+
+
+
+### CacheManager
+Se na sua aplicação foi injetado **Illuminate\Cache\CacheManager** para obter uma versão não *Facade* do Laravel cache, use **inject Illuminate\Contracts\Cache\Repository**.
+
+### Paginação
+Substitua todas as chamadas de **$paginator->links()** para **$paginator->render()**.
+
+### Beanstalk Queuing
+Laravel 5 agora presisa do **"pda/pheanstalk": "~3.0"** ao invés de **"pda/pheanstalk": "~2.1"**.
+
+### Remote
+Desabilidato.
+
+### Workbench
+
+Desabilidato.
